@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  section#form-area
+    if errors
+      ul.my-errors
+        each error in errors
+          li= error.msg
+
+    h2 Register to subscribe
+    include form

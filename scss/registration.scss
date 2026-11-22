@@ -1,0 +1,64 @@
+@import "colors";
+
+/* Registration form (converted from form.css) */
+#form-area {
+    float: left;
+    width: 800px;
+    text-align: center;
+
+    h2 {
+        font-size: 1.4em;
+        margin: 1em 0 1em;
+    }
+}
+
+/* Errors */
+.my-errors {
+    margin: 1em auto 0;
+    padding: 0;
+    list-style: none;
+    color: $color3;
+    font-size: 0.9em;
+    display: table;
+
+    li {
+        margin: 0 0 0.3rem;
+
+        &:before {
+            content: "! Error : ";
+            color: $errorColor;
+            font-weight: bold;
+        }
+    }
+}
+
+/* Form */
+.form-registration {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+    label {
+        width: 100%;
+        margin: 0.5em 0 0.2em;
+    }
+
+    input {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    input[type="submit"] {
+        flex: 1 0 100%;
+        height: 40px;
+        margin-top: 1em;
+        border: 0;
+        color: $color4;
+        background: $backgroundColor1;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

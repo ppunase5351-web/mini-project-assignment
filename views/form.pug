@@ -1,0 +1,10 @@
+- data = data || {}
+
+form.form-registration(action='/register' method='POST' novalidate)
+  label(for='name') Name:
+  input#name(type='text' name='name' value=data.name)
+
+  label(for='email') Email:
+  input#email(type='email' name='email' value=data.email)
+
+  input(type='submit' value='Register')

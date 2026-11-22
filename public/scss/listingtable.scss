@@ -1,0 +1,29 @@
+@import "colors";
+
+/* Listing table (converted from form.css) */
+#listing {
+    float: left;
+    width: 100%;
+    padding: 1em;
+}
+
+.listing-table {
+    width: 100%;
+    text-align: center;
+
+    th,
+    td {
+        padding: 10px;
+        border-bottom: 1px solid $tableBorderColor;
+    }
+
+    th {
+        background: $tableHeaderColor;
+        color: $color4;
+    }
+
+    td:first-child,
+    th:first-child {
+        border-right: 1px solid $tableBorderColor;
+    }
+}

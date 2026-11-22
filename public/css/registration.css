@@ -1,0 +1,58 @@
+/* Registration form (converted from form.css) */
+#form-area {
+  float: left;
+  width: 800px;
+  text-align: center;
+}
+#form-area h2 {
+  font-size: 1.4em;
+  margin: 1em 0 1em;
+}
+
+/* Errors */
+.my-errors {
+  margin: 1em auto 0;
+  padding: 0;
+  list-style: none;
+  color: rgb(49, 49, 48);
+  font-size: 0.9em;
+  display: table;
+}
+.my-errors li {
+  margin: 0 0 0.3rem;
+}
+.my-errors li:before {
+  content: "! Error : ";
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+/* Form */
+.form-registration {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.form-registration label {
+  width: 100%;
+  margin: 0.5em 0 0.2em;
+}
+.form-registration input {
+  width: 100%;
+  margin: 0 0 10px;
+}
+.form-registration input[type=submit] {
+  flex: 1 0 100%;
+  height: 40px;
+  margin-top: 1em;
+  border: 0;
+  color: rgb(255, 255, 255);
+  background: rgb(218, 170, 14);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=registration.css.map */

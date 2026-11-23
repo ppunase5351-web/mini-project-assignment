@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "nodemon ./start.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass public/scss:public/cs"
+    "build": "sass public/scss:public/css"
   },
   "author": "",
   "license": "ISC",
